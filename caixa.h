@@ -15,4 +15,6 @@ typedef struct {
     int ordem;
 } Caixa;
 
+void iniciar_caixa(Caixa *caixa);
+void destruir_caixa(Caixa *caixa);
 #endif
