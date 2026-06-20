@@ -17,4 +17,8 @@ typedef struct {
 
 void iniciar_caixa(Caixa *caixa);
 void destruir_caixa(Caixa *caixa);
+void esperar_caixa(Caixa *caixa, Pessoa *pessoa);
+void liberar_caixa(Caixa *caixa, Pessoa *pessoa);
+void mostrar_fila_formatada(Caixa *caixa);
+int vez_pessoa(Caixa *caixa, Pessoa *pessoa);
 #endif
